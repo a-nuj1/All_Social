@@ -11,7 +11,6 @@ app.set('views', './views');
 
 
 
-
 app.listen(port, (err)=>{
     if(err){
         console.log(`Error in running the server: ${err}`);

@@ -7,6 +7,7 @@ const { route } = require('./users');
 
 console.log('router loaded');
 
+
 router.get('/', homeController.home);
 router.use('/users', require('./users'));
 
